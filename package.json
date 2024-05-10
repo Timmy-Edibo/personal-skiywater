@@ -10,7 +10,8 @@
     "dev": "nodemon ./src/app.ts",
     "start": "node dist/app.js",
     "lint": "tslint 'src/**/*.ts' --fix",
-    "test": "jest --coverage"
+    "test": "jest --coverage --detectOpenHandles  --forceExit"
+
   },
   "author": "",
   "license": "ISC",

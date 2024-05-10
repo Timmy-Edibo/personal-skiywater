@@ -175,8 +175,8 @@ describe('User Controller Endpoints', () => {
 
 
 
-  afterAll(async () => {
-    await mongoose.disconnect();
-    await mongoose.connection.close();
+  afterAll(() => {
+     mongoose.disconnect();
+     mongoose.connection.close();
   });
 });
