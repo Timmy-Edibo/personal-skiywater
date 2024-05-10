@@ -32,7 +32,6 @@ describe('User Controller Endpoints', () => {
   }
 
 
-
   beforeAll(async () => {
     const mongoServer = await MongoMemoryServer.create();
     await mongoose.connect(mongoServer.getUri());
